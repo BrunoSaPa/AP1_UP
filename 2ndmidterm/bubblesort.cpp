@@ -24,7 +24,7 @@ int main()
             int pos2 = j+1;
             if(isGreater(arr[pos1], arr[pos2]))
                 swap(arr[pos1], arr[pos2]);
-        }
+    }
     
 
     //print
