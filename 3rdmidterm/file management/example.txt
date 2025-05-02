@@ -1,0 +1,4 @@
+The value of x is: 10
+The value of y is: 20
+30
+-10
