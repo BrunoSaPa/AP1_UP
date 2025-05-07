@@ -40,7 +40,6 @@ int main() {
             file.open(to_string(i) + ".txt");
         }
 
-
         if (!file) {
             continue;
         }
@@ -106,7 +105,7 @@ bool isOlder(int d1, int m1, int y1, int d2, int m2, int y2) {
     return d1 < d2;
 }
 
-//count for amount of days in each month
+//count for amnt of days in each month
 int daysInMonth[12] = { 31,28,31,30,31,30,31,31,30,31,30,31 };
 
 int dayOfYear(int day, int month) {
