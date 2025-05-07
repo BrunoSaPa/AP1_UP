@@ -14,7 +14,7 @@ using namespace std;
 //9: 9, w, x, y, z
 
 void printAmountOfChar(int word, int amount){
-    for(int i=0; i < amount ; i++){
+    for(int i=0; i <= amount ; i++){
         cout << word;
     }
 }
@@ -29,35 +29,35 @@ void convert(char* p){
         }
         //2 key
         else if(*p <= 99){    
-            printAmountOfChar(2, (int(*p)-95));
+            printAmountOfChar(2, (int(*p)-96));
         }
         //3 key
         else if(*p <= 102){
-            printAmountOfChar(3, (int(*p)-98));
+            printAmountOfChar(3, (int(*p)-99));
         }
         //4 key
         else if(*p <= 105){
-            printAmountOfChar(4, (int(*p)-101));
+            printAmountOfChar(4, (int(*p)-102));
         }
         //5 key
         else if(*p <= 108){
-            printAmountOfChar(5, (int(*p)-104));
+            printAmountOfChar(5, (int(*p)-105));
         }
         //6 key
         else if(*p <= 111){
-            printAmountOfChar(6, (int(*p)-107));
+            printAmountOfChar(6, (int(*p)-108));
         }
         //7 key
         else if(*p <= 115){
-            printAmountOfChar(7, (int(*p)-110));
+            printAmountOfChar(7, (int(*p)-111));
         }
         //8 key
         else if(*p <= 118){
-            printAmountOfChar(8, (int(*p)-114));
+            printAmountOfChar(8, (int(*p)-115));
         }
         //9 key
         else if(*p <= 122){
-            printAmountOfChar(9, (int(*p)-117));
+            printAmountOfChar(9, (int(*p)-118));
         }
         p++;
     }
