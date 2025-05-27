@@ -19,5 +19,5 @@ while (ss >> word) {
 }
 //reset the stringstream
 cout <<count;
-return 0;
+
 }
